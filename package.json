@@ -1,0 +1,33 @@
+{
+  "name": "node-express-mongodb",
+  "version": "0.0.0",
+  "description": "Getting Started with Express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js --watch"
+  },
+  "keywords": [
+    "node",
+    "express", 
+    "mongodb"
+  ],
+  "author": {
+    "name": "Tuğrul Şahin",
+    "email": "tugrul.sahin@rtl.nl"
+  },
+  "dependencies": {
+    "JSONStream": "^1.1.3",
+    "body-parser": "^1.15.2",
+    "consolidate": "^0.14.1",
+    "express": "^4.14.0",
+    "handlebars": "^4.0.5",
+    "jade": "^1.11.0",
+    "lodash": "^4.13.1",
+    "mongodb": "^2.1.18",
+    "mongoose": "^4.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
